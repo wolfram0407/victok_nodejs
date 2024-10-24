@@ -1,0 +1,43 @@
+{
+  "name": "victok-back",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development nodemon app.js",
+    "dev": "cross-env NODE_ENV=development node app.js",
+    "pro": "cross-env NODE_ENV=production node app.js",
+    "work": "cross-env NODE_ENV=development node work.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcrypt": "5.0.1",
+    "cors": "2.8.5",
+    "croner": "^6.0.3",
+    "cross-env": "^7.0.3",
+    "dayjs": "^1.10.7",
+    "dotenv": "10.0.0",
+    "express": "4.17.1",
+    "express-validator": "6.12.0",
+    "form-data": "^4.0.0",
+    "helmet": "4.6.0",
+    "jsonwebtoken": "8.5.1",
+    "morgan": "1.10.0",
+    "multer": "^1.4.4",
+    "mysql2": "^3.1.2",
+    "node-cron": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.7.1"
+  },
+  "description": ""
+}
